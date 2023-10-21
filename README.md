@@ -8,7 +8,7 @@ the following coniguration variables can be adjusted <br>
   "MESH_PORT" -> Port that the mesh is operating on (all devices need to have same value!) <br>
   "username" -> Pre programmed text string that is sent when the "UP+" button is pushed on the device <br>
   "password" -> Pre programmed text string that is sent when the "DW-" button is pushed on the device <br>
-  "fileName" -> Name of file on SD card containing the text you want to send <br>
+  "fileName" -> Name of file on SD card containing the text you want to send when the book/ok button is pressed <br>
 <br>
 example of changing a config value:  connect to device using arduino IDE and send the following text by serial monitor to change the MESH_SSID <br>
 
