@@ -2,8 +2,8 @@
 Mesh network of virtual keyboards using ESP32-S3 USB OTG devices
 
 the following coniguration variables can be adjusted
-  "deviceID" -> The identification number o the device
-  "MESH_SSID" -> Username for mesh network (all devices need to have same value!)
+  "deviceID" -> The identification number o the device \n
+  "MESH_SSID" -> Username for mesh network (all devices need to have same value!) \n
   "MESH_PASSWORD" -> Password for mesh network (all devices need to have same value!)
   "MESH_PORT" -> Port that the mesh is operating on (all devices need to have same value!)
   "username" -> Pre programmed text string that is sent when the "UP+" button is pushed on the device
