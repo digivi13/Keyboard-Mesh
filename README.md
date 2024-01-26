@@ -15,6 +15,11 @@ example of changing a config value:  connect to device using arduino IDE and sen
 MESH_SSID: 001TestNetwork <br>
 
 This will change the MESH_SSID to 001TestNetwork <br>
-  
+
+The deviceID can be changed by pressing the side menu button. A new screen appears and the volume up+ dW- buttons can be used to adjust the value lower or higher. Press menu again and the ID will be saved. Once the device restarts it will have a new network ID reflecting the change in the device ID 
+
+The last 3 digits of the MESH ID are equal to the device ID, allowing for the creation of separate smaller networks by adjusting device ID to values greater than 001 by using the menu button
+The device support OTA updates. By adjusting the device ID to 000 and restarting the device OTA mode is activated and an OTA symbol appears in upper right to indicate OTA mode is present.
+
 ![IMG_5379](https://github.com/digivi13/Keyboard-Mesh/assets/33264428/51a60f03-62eb-408f-af15-39eb6f38eb31)
 ![IMG_5388](https://github.com/digivi13/Keyboard-Mesh/assets/33264428/71a883cd-e1c2-437c-8cff-66bf5fe72a1a)
