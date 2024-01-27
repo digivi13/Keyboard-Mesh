@@ -6,7 +6,7 @@ Devices with the same device ID will form a network once powered on. Each device
 
 donwload the nRF connect app on your phone and connect to VinnyNet001 or VinnyNetXXX based on the device ID assigned. ESP32-S3 USB OTG devices are used for this setup. 
 
-The deviceID can be changed by pressing the side menu button. A new screen appears and the volume up+ dW- buttons can be used to adjust the value lower or higher. Press menu again and the ID will be saved. Once the device restarts it will have a new network ID reflecting the change in the device ID 
+The deviceID can be changed by pressing the side menu button. A new screen appears and the volume UP+ DW- buttons can be used to adjust the value higher or lower. Press menu again and the ID will be saved. Once the device restarts it will have a new network ID reflecting the change in the device ID 
 
 The last 3 digits of the MESH_SSID are equal to the device ID, allowing for the creation of separate smaller networks by adjusting device ID to values greater than 001 by using the menu button
 
