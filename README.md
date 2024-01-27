@@ -1,6 +1,6 @@
 # Keyboard-Mesh
 
-Network of ESP32 devices acting as HID keyboards, allowing you to type the same string onto many diferent devices. Useful for industrial applications where repetative user input on many devices is required. 
+Network of ESP32-S3 USB OTG devices acting as HID keyboards, allowing you to type the same string onto many diferent devices. Useful for industrial applications where manual, repetative user input on many devices is required. 
 
 Devices with the same device ID will form a network once powered on. Each device broadcasts a bluetooth connection that users can connect to with their iphone. This bluetooth connection has a characteristic, that when modified, will send the new value to the rest of the devices in the network. 
 
