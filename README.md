@@ -4,7 +4,7 @@ Network of ESP32 devices acting as HID keyboards, allowing you to type the same 
 
 Devices with the same device ID will form a network once powered on. Each device broadcasts a bluetooth connection that users can connect to with their iphone. This bluetooth connection has a characteristic, that when modified, will send the new value to the rest of the devices in the network. 
 
-donwload the nRF connect app and connect to VinnyNet001 or VinnyNetXXX based on the device ID assigned. ESP32-S3 USB OTG devices are used for this setup. 
+donwload the nRF connect app on your phone and connect to VinnyNet001 or VinnyNetXXX based on the device ID assigned. ESP32-S3 USB OTG devices are used for this setup. 
 
 The deviceID can be changed by pressing the side menu button. A new screen appears and the volume up+ dW- buttons can be used to adjust the value lower or higher. Press menu again and the ID will be saved. Once the device restarts it will have a new network ID reflecting the change in the device ID 
 
