@@ -1,7 +1,14 @@
 # Keyboard-Mesh
-
+Arduino sketch setup:
+install esp32 from arduino boards manager (Tools -> boards)
 Required Arduino libraries to compile:
 Painless mesh v1.5.0
+
+Dependencies required for painless mesh:
+ArduinoJson
+TaskScheduler
+ESPAsyncTCP (ESP8266)
+AsyncTCP (ESP32)
 
 Network of ESP32-S3 USB OTG devices acting as HID keyboards, allowing you to type the same string onto many diferent devices. Useful for industrial applications where manual, repetative user input on many devices is required. 
 
