@@ -4,7 +4,7 @@ Process was developed using guide here:
 
 https://www.aranacorp.com/en/generating-and-uploading-bin-files-for-esp32/
 
-Quick upload using my HAE laptop (has CP210X serial driver):
+Quick upload using my HAE laptop (has silicon labs CP210X serial driver):
 
 1) Connect to ESP32-S3 USB OTG device through USB-UART 
    
