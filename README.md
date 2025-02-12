@@ -21,6 +21,7 @@ C:\Users\vdigiovanni\Documents\ArduinoData\packages\esp32\tools\esptool_py\4.5.1
    
 Important notes: 
 tft_espi version: 3.0  --> Download the user_setup.h file that is included in this repo and replace user_setup.h in the tft_espi library (essential for screen to work on ESP32-S3 USB OTG) 
+
 ESP 32 board manager version (wrong version will cause panic) 2.0.10
 
 Arduino sketch setup:
