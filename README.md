@@ -45,14 +45,7 @@ Process references: [Generating and uploading .bin files for ESP32 by AranaCorp]
 3. **Run the following command** (adjust COM port and file paths as needed):
 
    ```bash
-   C:\Users\<username>\Documents\ArduinoData\packages\esp32\tools\esptool_py\4.5.1\esptool.exe ^
-   --chip esp32s3 --port COM9 --baud 921600 ^
-   --before default_reset --after hard_reset write_flash -e -z ^
-   --flash_mode dio --flash_freq 80m --flash_size 8MB ^
-   0x0      C:\Users\<username>\AppData\Local\Temp\arduino_build_XXXXXX\project.ino.bootloader.bin ^
-   0x8000   C:\Users\<username>\AppData\Local\Temp\arduino_build_XXXXXX\project.ino.partitions.bin ^
-   0xe000   C:\Users\<username>\Documents\ArduinoData\packages\esp32\hardware\esp32\2.0.10\tools\partitions\boot_app0.bin ^
-   0x10000  C:\Users\<username>\AppData\Local\Temp\arduino_build_XXXXXX\project.ino.bin
+C:\Users\vdigiovanni\Documents\ArduinoData\packages\esp32\tools\esptool_py\4.5.1/esptool.exe --chip esp32s3 --port COM9 --baud 921600 --before default_reset --after hard_reset write_flash -e -z --flash_mode dio --flash_freq 80m --flash_size 8MB 0x0 C:\Users\VDIGIO~1\AppData\Local\Temp\arduino_build_240785/esp32_with_menu_BLUETOOTHV6.ino.bootloader.bin 0x8000 C:\Users\VDIGIO~1\AppData\Local\Temp\arduino_build_240785/esp32_with_menu_BLUETOOTHV6.ino.partitions.bin 0xe000 C:\Users\vdigiovanni\Documents\ArduinoData\packages\esp32\hardware\esp32\2.0.10/tools/partitions/boot_app0.bin 0x10000 C:\Users\VDIGIO~1\AppData\Local\Temp\arduino_build_240785/esp32_with_menu_BLUETOOTHV6.ino.bin
    ```
 
 4. **Allow the device to reset** after the flash process. Firmware installation will complete automatically.
