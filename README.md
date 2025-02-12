@@ -1,6 +1,8 @@
 # Keyboard-Mesh
 
-Quickstart:
+Process was developed using guide here: 
+
+https://www.aranacorp.com/en/generating-and-uploading-bin-files-for-esp32/
 
 Quick upload using my HAE laptop (has CP210X serial driver):
 
