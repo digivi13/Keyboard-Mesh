@@ -9,8 +9,9 @@ Quick start using my HAE laptop (has CP210X serial driver):
    
 3) copy command below and press enter (may need to modify the COM port to be used)
 
+<div>
 C:\Users\vdigiovanni\Documents\ArduinoData\packages\esp32\tools\esptool_py\4.5.1/esptool.exe --chip esp32s3 --port COM9 --baud 921600 --before default_reset --after hard_reset write_flash -e -z --flash_mode dio --flash_freq 80m --flash_size 8MB 0x0 C:\Users\VDIGIO~1\AppData\Local\Temp\arduino_build_240785/esp32_with_menu_BLUETOOTHV6.ino.bootloader.bin 0x8000 C:\Users\VDIGIO~1\AppData\Local\Temp\arduino_build_240785/esp32_with_menu_BLUETOOTHV6.ino.partitions.bin 0xe000 C:\Users\vdigiovanni\Documents\ArduinoData\packages\esp32\hardware\esp32\2.0.10/tools/partitions/boot_app0.bin 0x10000 C:\Users\VDIGIO~1\AppData\Local\Temp\arduino_build_240785/esp32_with_menu_BLUETOOTHV6.ino.bin
-
+</div>
 4) Device will reset and firmware will be installed
    
 Important notes: 
